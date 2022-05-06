@@ -9,7 +9,7 @@ const {app, BrowserWindow} = require('electron')
             width: 800,
             height: 600,
             backgroundColor: '#2e2c29',
-            frame: false,
+            // frame: false,
             webPreferences: {
                 nodeIntegration: true
             }

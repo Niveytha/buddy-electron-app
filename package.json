@@ -1,14 +1,26 @@
 {
   "name": "buddy-electron-app",
   "version": "0.0.0",
-  "main": "app.js",
+  "main": "src/app.js",
   "description": "Second application created with Electron",
+  "homepage": "https://github.com/Niveytha/buddy-electron-app",
+  "bugs": {
+    "email": "niveytha@gmail.com"
+  },
+  "author": {
+    "name": "Niveytha Waran",
+    "email": "niveytha@gmail.com",
+    "url": "https://github.com/Niveytha/"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "electron-build": "ng build --prod && npm run electron .",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
